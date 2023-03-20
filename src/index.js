@@ -11,9 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter 
     basename="rickandmorty"
     >
-      
-        <App />
-      
+        <App /> 
     </BrowserRouter>
   </React.StrictMode>
 );
