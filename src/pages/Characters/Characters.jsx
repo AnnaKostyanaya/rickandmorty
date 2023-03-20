@@ -14,7 +14,6 @@ const Characters = () => {
     const [error, setError] = useState("");
     const location = useLocation();
 
-
 useEffect(() => {
     if (Number(pageNumber) > 42) {
         return;
@@ -24,12 +23,13 @@ useEffect(() => {
             const characters = resp.map(({id, name, status, species, gender, origin, type, image}) => {
                 return {id, name, status, species, gender, image, origin, type};
             })
-            setCharacters(prevState => [...prevState, ...characters]);
+            setCharacters([ ...characters]);
         })
     } catch (error) {
         setError(error);
     } 
 }, [setCharacters, pageNumber]);
+
 
 const handleIncrement = () => {
     setPageNumber(PrevNumber => Number(PrevNumber) + 1);

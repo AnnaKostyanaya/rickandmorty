@@ -1,10 +1,12 @@
 import { Outlet } from 'react-router-dom';
 import { Suspense} from 'react';
 
+import style from "../Layout/Layout.module.css";
+
 const Layout = () => {
 
 return (
-<>
+<div className={style.container}>
     <header>
     </header>
     <main>
@@ -13,7 +15,7 @@ return (
             <Outlet />
         </Suspense>
     </main>
-</>
+</div>
 );
 };
 

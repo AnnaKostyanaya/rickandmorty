@@ -107,6 +107,7 @@
 /* general styles */
 
 .gallery {
+    box-sizing: border-box;
     margin-top: 4px;
 }
 

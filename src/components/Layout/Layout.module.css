@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+
+@media screen and (min-width: 360px) {
+    width: 360px;
+}  
+
+@media screen and (min-width: 1440px) {
+    width: 1440px;
+
+}
+}
