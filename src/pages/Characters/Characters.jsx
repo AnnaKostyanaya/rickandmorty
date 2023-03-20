@@ -16,7 +16,7 @@ const Characters = () => {
 
 
 useEffect(() => {
-    if (pageNumber > 42) {
+    if (Number(pageNumber) > 42) {
         return;
     }
     try {
@@ -32,7 +32,7 @@ useEffect(() => {
 }, [setCharacters, pageNumber]);
 
 const handleIncrement = () => {
-    setPageNumber(PrevNumber => PrevNumber + 1);
+    setPageNumber(PrevNumber => Number(PrevNumber) + 1);
 } 
 
 const changeFilter = event => {
@@ -71,14 +71,14 @@ const visibleCharacters = getVisibleContacts();
                 ))}
             </ul>
         </div>
-        {(pageNumber <= 42) && 
+        {(Number(pageNumber) <= 42) && 
         <div className={style.btnPart}>
             <button  type="button" onClick={handleIncrement} className={style.loadMoreBtn}>Load more</button>
             <svg className={style.icon_from} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20 11H7.83L13.42 5.41L12 4L4 12L12 20L13.41 18.59L7.83 13H20V11Z" fill="black"/>
             </svg>
         </div>}
-        {(pageNumber === 42) &&
+        {(pageNumber === 42 && characters) &&
         <p>You've reached the end of search results.</p>}
         {error &&  <p>Error</p>}
     </div>
