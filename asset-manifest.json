@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/rickandmorty/static/css/main.14fb6527.css",
+    "main.js": "/rickandmorty/static/js/main.3e3b3fda.js",
+    "static/js/673.c5fe21d3.chunk.js": "/rickandmorty/static/js/673.c5fe21d3.chunk.js",
+    "static/css/402.6e57cf71.chunk.css": "/rickandmorty/static/css/402.6e57cf71.chunk.css",
+    "static/js/402.4da99a2b.chunk.js": "/rickandmorty/static/js/402.4da99a2b.chunk.js",
+    "static/css/939.20b041f4.chunk.css": "/rickandmorty/static/css/939.20b041f4.chunk.css",
+    "static/js/939.cc368fcc.chunk.js": "/rickandmorty/static/js/939.cc368fcc.chunk.js",
+    "static/js/279.968c5919.chunk.js": "/rickandmorty/static/js/279.968c5919.chunk.js",
+    "static/media/RickMorty_mob1x.jpg": "/rickandmorty/static/media/RickMorty_mob1x.446d4c80fb9d8116580c.jpg",
+    "static/media/RickMorty_mob2x.jpg": "/rickandmorty/static/media/RickMorty_mob2x.cdf5cd328b5dc4097b14.jpg",
+    "static/media/RickMorty3x.jpg": "/rickandmorty/static/media/RickMorty3x.649b3c5e3fab0ecd0121.jpg",
+    "static/media/RickMorty_mob3x.jpg": "/rickandmorty/static/media/RickMorty_mob3x.9d41f087b9ca8178ae2a.jpg",
+    "static/media/RickMorty2x.jpg": "/rickandmorty/static/media/RickMorty2x.0993268fd5cca50db3fe.jpg",
+    "static/media/RickMorty1x.jpg": "/rickandmorty/static/media/RickMorty1x.7bb993dead73b02f5325.jpg",
+    "index.html": "/rickandmorty/index.html",
+    "main.14fb6527.css.map": "/rickandmorty/static/css/main.14fb6527.css.map",
+    "main.3e3b3fda.js.map": "/rickandmorty/static/js/main.3e3b3fda.js.map",
+    "673.c5fe21d3.chunk.js.map": "/rickandmorty/static/js/673.c5fe21d3.chunk.js.map",
+    "402.6e57cf71.chunk.css.map": "/rickandmorty/static/css/402.6e57cf71.chunk.css.map",
+    "402.4da99a2b.chunk.js.map": "/rickandmorty/static/js/402.4da99a2b.chunk.js.map",
+    "939.20b041f4.chunk.css.map": "/rickandmorty/static/css/939.20b041f4.chunk.css.map",
+    "939.cc368fcc.chunk.js.map": "/rickandmorty/static/js/939.cc368fcc.chunk.js.map",
+    "279.968c5919.chunk.js.map": "/rickandmorty/static/js/279.968c5919.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14fb6527.css",
+    "static/js/main.3e3b3fda.js"
+  ]
+}
