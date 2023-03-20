@@ -8,7 +8,7 @@ import useLocalStorage from "../../shared/hooks/useLocalStorage";
 import style from "../Characters/Characters.module.css";
 
 const Characters = () => {
-    const [characters, setCharacters] = useLocalStorage("characters", []);
+    const [characters, setCharacters] = useState([]);
     const [pageNumber, setPageNumber] = useLocalStorage("pageNumber", "1");
     const [filter, setFilter] = useLocalStorage("filter", "");
     const [error, setError] = useState("");
