@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/rickandmorty/static/css/main.8c07afe5.css",
-    "main.js": "/rickandmorty/static/js/main.c70559e1.js",
+    "main.js": "/rickandmorty/static/js/main.768b2bec.js",
     "static/css/101.0b41e3d6.chunk.css": "/rickandmorty/static/css/101.0b41e3d6.chunk.css",
     "static/js/101.aa1935a5.chunk.js": "/rickandmorty/static/js/101.aa1935a5.chunk.js",
     "static/css/402.3a2aee73.chunk.css": "/rickandmorty/static/css/402.3a2aee73.chunk.css",
-    "static/js/402.9b6f7f7e.chunk.js": "/rickandmorty/static/js/402.9b6f7f7e.chunk.js",
+    "static/js/402.e5e5d641.chunk.js": "/rickandmorty/static/js/402.e5e5d641.chunk.js",
     "static/css/939.20b041f4.chunk.css": "/rickandmorty/static/css/939.20b041f4.chunk.css",
     "static/js/939.cc368fcc.chunk.js": "/rickandmorty/static/js/939.cc368fcc.chunk.js",
     "static/js/279.968c5919.chunk.js": "/rickandmorty/static/js/279.968c5919.chunk.js",
@@ -17,17 +17,17 @@
     "static/media/RickMorty1x.jpg": "/rickandmorty/static/media/RickMorty1x.7bb993dead73b02f5325.jpg",
     "index.html": "/rickandmorty/index.html",
     "main.8c07afe5.css.map": "/rickandmorty/static/css/main.8c07afe5.css.map",
-    "main.c70559e1.js.map": "/rickandmorty/static/js/main.c70559e1.js.map",
+    "main.768b2bec.js.map": "/rickandmorty/static/js/main.768b2bec.js.map",
     "101.0b41e3d6.chunk.css.map": "/rickandmorty/static/css/101.0b41e3d6.chunk.css.map",
     "101.aa1935a5.chunk.js.map": "/rickandmorty/static/js/101.aa1935a5.chunk.js.map",
     "402.3a2aee73.chunk.css.map": "/rickandmorty/static/css/402.3a2aee73.chunk.css.map",
-    "402.9b6f7f7e.chunk.js.map": "/rickandmorty/static/js/402.9b6f7f7e.chunk.js.map",
+    "402.e5e5d641.chunk.js.map": "/rickandmorty/static/js/402.e5e5d641.chunk.js.map",
     "939.20b041f4.chunk.css.map": "/rickandmorty/static/css/939.20b041f4.chunk.css.map",
     "939.cc368fcc.chunk.js.map": "/rickandmorty/static/js/939.cc368fcc.chunk.js.map",
     "279.968c5919.chunk.js.map": "/rickandmorty/static/js/279.968c5919.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c07afe5.css",
-    "static/js/main.c70559e1.js"
+    "static/js/main.768b2bec.js"
   ]
 }
