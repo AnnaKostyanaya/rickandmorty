@@ -82,7 +82,7 @@ const visibleCharacters = getVisibleContacts();
                 ))}
             </ul>
         </div>
-        {(Number(pageNumber) <= 42) && 
+        {((Number(pageNumber) <= 41) && (filter === "")) && 
         <div className={style.btnPart}>
             <button  type="button" onClick={handleIncrement} className={style.loadMoreBtn}>Load more</button>
             <svg className={style.icon_from} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
