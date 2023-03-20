@@ -1,0 +1,313 @@
+/* picture styles */
+
+.picture {
+    box-sizing: border-box;
+    width: 312px;
+    height: 104px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    background-image: url("../../images/RickMorty_mob1x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .picture {
+        background-image: url('../../images/RickMorty_mob2x.jpg');
+    }
+    @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .picture {
+    background-image: url('../../images/RickMorty_mob3x.jpg');
+        }
+}
+}
+
+@media screen and (min-width: 360px) {
+    .picture {
+        box-sizing: border-box;
+        width: 312px;
+        height: 104px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
+        background-image: url("../../images/RickMorty_mob1x.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }
+        @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .picture {
+            background-image: url('../../images/RickMorty_mob2x.jpg');
+        }
+        @media (min-device-pixel-ratio: 3),
+        (-webkit-min-device-pixel-ratio: 3),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .picture {
+        background-image: url('../../images/RickMorty_mob3x.jpg');
+            }
+}
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .picture {
+    width: 600px;
+    height: 200px;
+    margin-bottom: 32px;
+    background-image: url('../../images/RickMorty1x.jpg');
+    }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .picture {
+    background-image: url('../../images/RickMorty2x.jpg');
+    }
+}
+
+    @media (min-device-pixel-ratio: 3),
+    (-webkit-min-device-pixel-ratio: 3),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .picture {
+    background-image: url('../../images/RickMorty3x.jpg');
+    }
+}
+}
+
+/* container */
+
+.container {
+    width: 360px;
+    padding: 92px 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+        padding: 86px 210px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* general styles */
+
+.gallery {
+    margin-top: 4px;
+}
+
+.list {
+    width: 312px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    list-style-type: none;
+    margin-bottom: 4px;
+}
+
+.item:last-child {
+    margin-bottom: 0px;
+}
+
+.hero {
+    width: 312px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+
+.avatar {
+    width: 312px;
+    height: 288px;
+    border-radius: 8px 8px 0px 0px;
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+width: 100%;
+height: auto;
+padding: 12px 16px;
+max-width: 312px;
+}
+
+.title_elements {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1px;
+max-width: 312px;
+max-height: 76px;
+}
+
+
+.text_name {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.15px;
+color: rgba(0, 0, 0, 0.87);
+}
+
+.text_species {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.25px;
+color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 1440px) {
+.gallery {
+    margin-top: 33px;
+}
+
+.list {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    list-style-type: none;
+    margin-right: 20px;
+    margin-bottom: 24px;
+}
+
+.item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.item:not(:last-child):nth-last-child(-n+4) {
+    margin-bottom: 0;
+}
+
+.hero {
+    width: 240px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+
+.avatar {
+    width: 240px;
+    height: 168px;
+    border-radius: 8px 8px 0px 0px;
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex-shrink: 0;
+justify-content: center;
+width: 100%;
+height: auto;
+padding: 12px 16px;
+max-width: 208px;
+}
+
+.title_elements {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1px;
+flex-grow: 1;
+max-width: 208px;
+height: 76px;
+}
+
+.text_name {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.15px;
+color: rgba(0, 0, 0, 0.87);
+white-space: normal;
+}
+
+.text_species {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.25px;
+color: rgba(0, 0, 0, 0.6);
+white-space: normal;
+}
+}
+
+
+/* button Load more */
+
+.btnPart {
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadMoreBtn {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+
+.icon_from {
+    margin-left: 12px;
+    width: 16px;
+    height: 16px;
+    rotate: 180deg;
+}
