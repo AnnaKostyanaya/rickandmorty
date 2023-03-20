@@ -311,3 +311,10 @@ white-space: normal;
     height: 16px;
     rotate: 180deg;
 }
+
+.error {
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

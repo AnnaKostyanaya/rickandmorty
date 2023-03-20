@@ -90,7 +90,7 @@ const visibleCharacters = getVisibleContacts();
             </svg>
         </div>}
         {(pageNumber === 42 && characters) &&
-        <p>You've reached the end of search results.</p>}
+        <p className={style.error}>You've reached the end of search results.</p>}
         {error &&  <p>Error</p>}
     </div>
     );
