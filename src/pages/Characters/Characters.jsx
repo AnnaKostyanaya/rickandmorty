@@ -8,7 +8,7 @@ import useLocalStorage from "../../shared/hooks/useLocalStorage";
 import style from "../Characters/Characters.module.css";
 
 const Characters = () => {
-    const [characters, setCharacters] = useState([]);
+    const [characters, setCharacters] = useLocalStorage("characters", [])
     const [pageNumber, setPageNumber] = useLocalStorage("pageNumber", "1");
     const [filter, setFilter] = useLocalStorage("filter", "");
     const [error, setError] = useState("");
@@ -20,15 +20,26 @@ useEffect(() => {
     }
     try {
         getCharacters(pageNumber).then( resp => {
-            const characters = resp.map(({id, name, status, species, gender, origin, type, image}) => {
+            const newCharacters = resp.map(({id, name, status, species, gender, origin, type, image}) => {
                 return {id, name, status, species, gender, image, origin, type};
             })
-            setCharacters([ ...characters]);
+                setCharacters(prevState => {
+                    const joinedArrays = [...prevState, ...newCharacters]
+                    const uniqueCharacters = joinedArrays.reduce((o, i) => {
+                        if (!o.find(v => v.id === i.id)) {
+                        o.push(i);
+                        }
+                        return o;
+                    }, []);
+                    console.log(uniqueCharacters)
+                    return [...uniqueCharacters];
+                }
+                );
         })
     } catch (error) {
         setError(error);
     } 
-}, [setCharacters, pageNumber]);
+}, [pageNumber, setError, setCharacters]);
 
 
 const handleIncrement = () => {
